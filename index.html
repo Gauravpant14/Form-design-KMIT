@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Colorlib Templates" />
+    <meta name="author" content="Colorlib" />
+    <meta name="keywords" content="Colorlib Templates" />
+
+    <!-- Title Page-->
+    <title>Au Register Forms by Colorlib</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+
+    <!-- Icons font CSS-->
+    <link
+      href="vendor/mdi-font/css/material-design-iconic-font.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      href="vendor/font-awesome-4.7/css/font-awesome.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <!-- Font special for pages-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+    <link
+      href="vendor/datepicker/daterangepicker.css"
+      rel="stylesheet"
+      media="all"
+    />
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body>
+    
+    <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo" >
+      <div class="wrapper wrapper--w680">
+        <div class="card card-1">
+          <div class="card-heading">
+            <div class="custom-control custom-switch mt-2 switch-toggle">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch1"
+                  onclick="myFunction()"
+                />
+                <label class="custom-control-label" for="customSwitch1"></label>
+              </div>
+          </div>
+          <div class="card-body" id="bg">
+            <h2 class="title text-center">Online Resume Maker</h2>
+
+            <div class="main-form pt-4">
+              <form action="">
+                <div class="form-group">
+                  <label for="name"> <strong>Name</strong> </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Full Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"> <strong>Email address</strong> </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="myDate"><strong>Date Of Birth</strong></label>
+                  <input
+                    type="date"
+                    id="myDate"
+                    class="form-control"
+                    value="2014-02-09"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input
+                        type="radio"
+                        class="form-check-input"
+                        name="optradio"
+                      />Male
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input
+                        type="radio"
+                        class="form-check-input"
+                        name="optradio"
+                      />Female
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="inputState"> <strong>State</strong> </label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>UK</option>
+                    <option>PB</option>
+                    <option>DL</option>
+                    <option>HR</option>
+                    <option>J&K</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1"
+                    > <strong>Year Of Experience</strong> </label
+                  >
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="checkbox"
+                    id="JavaScript"
+                    name="JavaScript"
+                    value="JavaScript"
+                    
+                  />
+                  <label for="vehicle1"> JavaScript</label><br />
+                  <input
+                    type="checkbox"
+                    id="Node js"
+                    name="Node js"
+                    value="Node js"
+                  />
+                  <label for="vehicle2">Node js</label><br />
+                  <input
+                    type="checkbox"
+                    id="React"
+                    name="React"
+                    value="React"
+                  />
+                  <label for="vehicle3">React</label>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"
+                    ><strong>Project Details</strong>
+                    </label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">github.com/</div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inlineFormInputGroup"
+                      placeholder="Username"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlFile1"></label>
+                    <strong> Upload Project Demo :</strong></label
+                  >
+                  <input
+                    type="file"
+                    class="form-control-file"
+                    id="exampleFormControlFile1"
+                  />
+                </div>
+
+                <button type="submit" class="btn btn-primary ">Generate CV</button>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/global.js"></script>
+  </body>
+  <!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
+<!-- end document-->
